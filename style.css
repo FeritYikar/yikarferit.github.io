@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: purple;
+  font-family: 'Yellowtail', cursive;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h6 {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.first {
+  color: red;
+}
+
+#your-name {
+  background-color: yellow;
+  border: 5px solid rgb(95, 17, 17);
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+a {
+  color: black;
+}
+
+#your-name h2 {
+  color: olivedrab;
+}
+
+#image {
+  width: 400px;
+}
