@@ -4,7 +4,19 @@
   box-sizing: border-box;
 }
 
-.topnav {
+body {
+  background: url(images/background3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #111111;
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.Navbar {
   background-color: #111111;
   overflow: hidden;
   margin: 0;
@@ -16,12 +28,8 @@
   float: right;
 }
 
-.right {
-  float: right;
-}
-
 /* Style the links inside the navigation bar */
-.topnav a {
+.Navbar a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -31,23 +39,32 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.Navbar a:hover {
   background-color: #e1e2e2;
   color: #111111;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.Navbar a.active {
   font-size: 40px;
   color: #fb8122;
 }
 
+.ferit-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+
 .greet {
-  margin-top: 150px;
-  margin-left: 750px;
+  margin: left;
+  margin-top: 300px;
+  /* margin-left: 250px; */
   color: #e1e2e2;
-  text-align: left;
   top: 0;
+  width: 60%;
+  padding: 10px;
 }
 
 .name {
@@ -68,13 +85,7 @@
   font-size: 35px;
 }
 
-body {
-  background-color: #111111;
-  font-family: 'Saira', sans-serif;
-  font-size: 20px;
-  padding: 50px;
-}
-.welcome{
+.welcome {
   width: 1600px;
 }
 h1 {
@@ -127,22 +138,22 @@ a {
 }
 /* social media icons */
 
-.social-media{
+.social-media {
   text-align: center;
+  font-size: 50px;
 }
-
 
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
+  width: 110px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  margin: 5px 2px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-github {
@@ -150,11 +161,62 @@ a {
   color: #e1e2e2;
 }
 
-.fa-twitter {
+.fa-medium {
   background: #111111;
   color: #e1e2e2;
 }
 
 .fa-linkedin {
   background: #111111;
-  color: #e1e2e2;
+  color: white;
+}
+
+.Navbar {
+  background-color: #111111;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left: auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+
+  .Navbar__Items {
+    display: none;
+  }
+
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+}

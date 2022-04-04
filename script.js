@@ -725,25 +725,36 @@ function calcAverage(arr) {
 console.log(calcAverage(bills), calcAverage(tips), calcAverage(totals));
 */
 
-"use strict";
+'use strict';
 
-const projects = document.querySelector(".projects");
-const home = document.querySelector(".home");
-const projectButton = document.querySelector(".btn-projects");
-const feritButton = document.querySelector(".btn-home");
+const projects = document.querySelector('.projects');
+const home = document.querySelector('.home');
+const projectButton = document.querySelector('.btn-projects');
+const feritButton = document.querySelector('.Navbar__Link-brand');
 
 const scrollInto = function (e) {
-  e.scrollIntoView({ behavior: "smooth", block: "start" });
+  e.scrollIntoView({ behavior: 'smooth', block: 'start' });
 };
 
 //Click Ferit Yikar to go to top
 
-feritButton.addEventListener("click", function () {
+feritButton.addEventListener('click', function () {
   scrollInto(home);
 });
 
 //Click Projects to go to the portfolio
 
-projectButton.addEventListener("click", function () {
+projectButton.addEventListener('click', function () {
   scrollInto(projects);
 });
+
+//Navbar Toggle
+function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items');
+
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
+
+document
+  .querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);

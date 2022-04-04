@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,34 +20,63 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <link rel="icon" href="images/favicon4.png" />
+
     <title>Ferit Yikar</title>
   </head>
   <body class="home">
-    <div class="topnav">
-      <a class="active btn-home" href="#home">Ferit Yikar</a>
-      <div class="right">
-        <a href="resume.pdf">Resume</a>
-        <a href="#projects" class="btn-projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+    <!-- navbar start -->
+    <div class="Navbar">
+      <a class="active Navbar__Link Navbar__Link-brand" href="#home"
+        >Ferit Yikar</a
+      >
+      <div class="Navbar__Link Navbar__Link-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+      <!-- items at left
+      <nav class="Navbar__Items">
+        <div class="Navbar__Link">Longer Link</div>
+        <div class="Navbar__Link">Longer Link</div>
+        <div class="Navbar__Link">Link</div>
+      </nav>
+      items at left -->
+
+      <div class="Navbar__Items Navbar__Items--right">
+        <a href="resume.pdf" class="Navbar__Link">Resume</a>
+        <a href="#projects" class="btn-projects Navbar__Link">Projects</a>
+        <a href="#contact" class="Navbar__Link">Contact</a>
+        <a href="#about" class="Navbar__Link">About</a>
       </div>
     </div>
-    <div class="welcome">
-      <img src="images/grad.png" alt="" />
-      <!-- <img src="images/grad.jpg" alt="" /> -->
-      <div class="greet">
-        <h3 class="name">Hi, I am Ferit,</h3>
-        <h2 class="background-info">
-          A data Scientist with a background in Finance
-        </h2>
-        <p class="coffee-addict">Good thing that I am a coffee addict. ☕</p>
-        <div class="social-media">
-          <a href="#" class="fa fa-github"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-twitter"></a>
-        </div>
+    <!-- navbar end -->
+
+    <!-- <div class="welcome"> -->
+    <!-- <img class="ferit-image" src="images/grad.png" alt="" /> -->
+    <!-- <img src="images/grad.jpg" alt="" /> -->
+    <div class="greet">
+      <h3 class="name">Hi, I am Ferit,</h3>
+      <h2 class="background-info">
+        A data Scientist with a background in Finance.
+      </h2>
+      <p class="coffee-addict">
+        Good thing that I am a coffee addict. ☕ Here is some more about me.
+        This part will be long enough to exceed one line. I enjoy learning new
+        things and applying them in my life. And when I try new things I try to
+        diversify them. Since I am a data scientist with a finance background, I
+        wanted to do something more towards design rather then numbers.
+        Therefore I learned some HTML, CSS, and Javascript and built myself an
+        website from scratch.
+      </p>
+      <div class="social-media">
+        <a href="https://github.com/FeritYikar" class="fa fa-github"></a>
+        <a
+          href="https://www.linkedin.com/in/ferityikar/"
+          class="fa fa-linkedin"
+        ></a>
+        <a href="https://medium.com/@yikarferit" class="fa fa-medium"></a>
       </div>
     </div>
+    <!-- </div> -->
 
     <p class="first">
       <a href="https://github.com/FeritYikar">Github</a>
