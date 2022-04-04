@@ -727,7 +727,7 @@ console.log(calcAverage(bills), calcAverage(tips), calcAverage(totals));
 
 'use strict';
 
-const projects = document.querySelector('.projects');
+const projects = document.querySelector('.projects-area');
 const home = document.querySelector('.home');
 const projectButton = document.querySelector('.btn-projects');
 const feritButton = document.querySelector('.Navbar__Link-brand');

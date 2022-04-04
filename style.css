@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url(images/background3.jpg) no-repeat center center fixed;
+  background: url(images/bg4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -97,15 +97,23 @@ h1 {
 h2 {
   margin-bottom: 20px;
   text-align: center;
+  color: #111111;
+  font-size: 42px;
 }
 
-h6 {
-  margin-top: 20px;
+
+
+.projects h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #666666;
 }
 
 p {
   margin-bottom: 20px;
-  color: blue;
+  color: #111111;
+  font-size: 25px;
+  text-align: left;
 }
 
 .first {
@@ -145,7 +153,6 @@ a {
 
 .fa {
   padding: 20px;
-  font-size: 30px;
   width: 110px;
   text-align: center;
   text-decoration: none;
@@ -170,6 +177,20 @@ a {
   background: #111111;
   color: white;
 }
+
+/* .fa-btc {
+  background: #e1e2e2;
+  color: #111111;
+}
+
+.fa-home {
+  color: #111111;
+}
+
+.fa-newspaper-o {
+  background: #e1e2e2;
+  color: #111111;
+} */
 
 .Navbar {
   background-color: #111111;
@@ -207,7 +228,7 @@ a {
 
   .Navbar__Items--right {
     margin-left: 0;
-  }
+  } 
 
   .Navbar__ToggleShow {
     display: flex;
@@ -219,4 +240,110 @@ a {
     position: absolute;
     cursor: pointer;
   }
+}
+
+.skills {
+  height: 355px;
+  background-color: #e1e2e2;
+  text-align: center;
+  font-size: 80px;
+ 
+}
+.projects-area {
+  background-color: #e1e2e2;
+  left: 0;
+  right: 0;
+  padding-top: 100px;
+}
+.projects-hr {
+  width: 50px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  height: 3px;
+  color: #111111;
+  background-color: #111111;
+}
+.projects {
+  padding: 80px auto 0 auto;
+  text-align: center;
+}
+
+#grid-layout-33 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#grid-layout-33 > div {
+  background-color: #c9c9c9;
+  padding: 18px;
+  margin-bottom: 100px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #000000;
+  margin: 80px auto 40px auto;
+}
+
+#grid-layout-33 > div:hover {
+  transition: 0.25s ease-in;
+  background-color: #e1e2e2;
+}
+
+#grid-layout-33 .fa{
+  color: #666666;
+  font-size: 50px;
+  bac
+}
+
+.test{
+  background-color: #e1e2e2;
+  left: 0;
+  right: 0;
+  height: 10000px;
+}
+.devicon-numpy-original{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-pandas-original-wordmark{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-python-plain{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-tensorflow-original{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-mysql-plain{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-vscode-plain{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-html5-plain-wordmark{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-css3-plain-wordmark{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+.devicon-javascript-plain{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
 }
