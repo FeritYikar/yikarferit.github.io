@@ -369,8 +369,6 @@ console.log(`The bill was ${billAmount}$, the tip was ${tip}$, and the total amo
 
 */
 
-'use strict';
-
 /*
 
 let hasDriversLicence = false;
@@ -727,5 +725,25 @@ function calcAverage(arr) {
 console.log(calcAverage(bills), calcAverage(tips), calcAverage(totals));
 */
 
-const x = 23;
-if (x !== 3) console.log(`hello`);
+"use strict";
+
+const projects = document.querySelector(".projects");
+const home = document.querySelector(".home");
+const projectButton = document.querySelector(".btn-projects");
+const feritButton = document.querySelector(".btn-home");
+
+const scrollInto = function (e) {
+  e.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+
+//Click Ferit Yikar to go to top
+
+feritButton.addEventListener("click", function () {
+  scrollInto(home);
+});
+
+//Click Projects to go to the portfolio
+
+projectButton.addEventListener("click", function () {
+  scrollInto(projects);
+});
