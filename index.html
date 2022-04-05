@@ -7,14 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Nunito+Sans:wght@200&family=Saira:wght@200&family=Yellowtail&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@1,100&family=Nunito+Sans:wght@200&family=Rubik+Puddles&family=Saira:wght@200&family=Yellowtail&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -48,15 +43,12 @@
       <div class="Navbar__Items Navbar__Items--right">
         <a href="resume.pdf" class="Navbar__Link">Resume</a>
         <a href="#projects-area" class="btn-projects Navbar__Link">Projects</a>
-        <a href="#contact" class="Navbar__Link">Contact</a>
-        <a href="#about" class="Navbar__Link">About</a>
+        <a href="#game" class="btn-game Navbar__Link">Game</a>
+        <a href="#contact" class="btn-contact Navbar__Link">Contact Me</a>
       </div>
     </div>
     <!-- navbar end -->
 
-    <!-- <div class="welcome"> -->
-    <!-- <img class="ferit-image" src="images/grad.png" alt="" /> -->
-    <!-- <img src="images/grad.jpg" alt="" /> -->
     <div class="greet">
       <h3 class="name">Hi, I am Ferit,</h3>
       <h2 class="background-info">
@@ -82,7 +74,7 @@
     </div>
 
     <p class="first"></p>
-    <h2>Another header</h2>
+
     <img id="image" src="images/coffeee.png" alt="" />
 
     <div class="projects-area">
@@ -114,7 +106,7 @@
           </p>
         </div>
         <div>
-          <i class="fa fa-btc" aria-hidden="true"></i>
+          <a href='https://github.com/FeritYikar/btc-daily' class="fa fa-btc" aria-hidden="true"></a>
           <h3>Bitcoin Daily</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
@@ -140,16 +132,222 @@
       <i class="devicon-css3-plain-wordmark"></i>
       <i class="devicon-javascript-plain"></i>
     </ul>
-    <div class="test"></div>
 
-    <form id="your-name">
-      <h2>Your name here</h2>
-      <p>Please fill in this form</p>
-      <input type="text" placeholder="Your name" />
-      <button>OK!</button>
+    <div class="game">
+      <h2 class="game-name">Python Memory Game</h2>
+      
+      <div class="container">
+        <div class="center">
+          <button class="restart" onClick="window.location.reload();">RESTART<ion-icon name="refresh-outline"></ion-icon></button>
+        </div>
+      </div>
+          
+      <section class="memory-game">
+        <div class="memory-card" data-framework="tensorflow">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="tensorflow">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="flask">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="flask">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="numpy">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="numpy">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="pandas">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="pandas">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="pytorch">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="pytorch">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="jupyter">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="jupyter">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="django">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="django">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="sqlite">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+        <div class="memory-card"data-framework="sqlite">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg"
+            class="front-face"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            class="back-face"
+          />
+        </div>
+      </div>
+    </section>
+
+
+   
+    <div class="contact">
+      <div class="contact-me">
+        <h2>You can contact me at...</h2>
+      </div>
+
+      <hr class="contact-hr" />
+
+      <div class="contact-info">
+        <i class="fa fa-linkedin contact-icons" aria-hidden="true"></i>
+        <span> <a href="https://www.linkedin.com/in/ferityikar/">https://www.linkedin.com/in/ferityikar/</a> </span><br>
+        <i class="fa fa-google contact-icons" aria-hidden="true"></i>
+        <span> yikarferit@gmail.com</span><br>
+        <i class="fa fa-windows contact-icons" aria-hidden="true"></i>
+        <span> yikarferit@outlook.com</span><br>
+        <i class="fa fa-github contact-icons" aria-hidden="true"></i>
+        <span> <a href="https://github.com/FeritYikar">https://github.com/FeritYikar</a> </span>
+
+
+      </div>
+
+    
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     </form>
+    
+    
+    <footer> Hidden message :)</footer>
 
-    <h6>this is a header but very small</h6>
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
