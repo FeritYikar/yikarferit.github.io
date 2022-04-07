@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url(images/bg4.jpg) no-repeat center center fixed;
+  background: url(images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,7 +48,7 @@ body {
 .Navbar a.active {
   font-size: 40px;
   color: #fb8122;
-  font-family: 'Indie Flower', cursive;}
+  font-family: 'Saira', sans-serif;}
 
 .ferit-image {
   margin-left: auto;
@@ -214,7 +214,7 @@ a {
 
 .Navbar__Items--right {
   margin-left: auto;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Saira', sans-serif;;
 }
 
 .Navbar__Link-toggle {
@@ -356,6 +356,18 @@ a {
   vertical-align: middle;
 }
 
+.devicon-anaconda-original{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+
+.iconify{
+  color: #666666;
+  height: 310px;
+  vertical-align: middle;
+}
+
 .game {
   background-color: #090a3d;
   left: 0;
@@ -451,6 +463,7 @@ a {
   right: 0;
   padding-top: 120px;
   height: 1000px;
+  margin-top: 200px;
 }
 .contact-hr {
   width: 550px;
@@ -482,4 +495,19 @@ a {
 span{
   font-family: 'Saira', sans-serif;
   font-weight: 600;
+}
+
+ul.project-details{
+  margin-left: 25px;
+  list-style-type: circle;
+  text-align: left;
+}
+
+.projects-info {
+  text-align: left;
+  left: auto;
+  right: auto;
+  color: #666666;
+  font-size: 23px;
+
 }
